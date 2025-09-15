@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Andy Wu"
-  site-url: "https://andyxwu.github.io/"
+  site-url: https://andyxwu.github.io/
   navbar:
     left:
       - text: Home
@@ -24,6 +24,8 @@ website:
 
 format:
   html:
+    meta:
+      description: "Xiaosong Wu, Andy Wu, Senior Lecturer, Economics, University of Melbourne. Research in Industrial Organization, Competition Policy, Econometrics."
     theme: default
     toc: true
     self-contained: true
