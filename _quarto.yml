@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Andy Wu"
-  site-url: "https://example.com"
+  site-url: "https://andyxwu.github.io/"
   navbar:
     left:
       - text: Home
