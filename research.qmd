@@ -1,0 +1,33 @@
+---
+title: ""
+---
+
+## Publications
+
+- [**Asymmetric Information Sharing in Oligopoly: A Natural Experiment in Retail Gasoline**](https://www.journals.uchicago.edu/doi/10.1086/734872) (lead article).  
+  with David Byrne, Nicolas de Roos, Matthew Lewis, and Leslie Marx.  
+  *Journal of Political Economy*, 133(5): 2031–2088, 2025. 
+
+- [**Search with Learning in the Retail Gasoline Market**](https://onlinelibrary.wiley.com/doi/10.1111/1756-2171.12466)  
+  with Matthew S. Lewis and Frank A. Wolak.  
+  *The RAND Journal of Economics*, 55: 292–323, 2024.
+
+- [**Price Effects of Calling Out Market Power: A Study of the COVID-19 Oil Price Shock**](https://onlinelibrary.wiley.com/doi/10.1111/jems.12485)  
+  with Aaron Barkley and David P. Byrne.  
+  *Journal of Economics & Management Strategy*, 31(4): 923–941, 2022. 
+
+
+## Working Papers
+
+- [**Price Coordination with Asymmetric Information Sharing: Theory and Evidence**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4923791)  
+  with David P. Byrne, Nicolas de Roos, Matthew S. Lewis, and Leslie M. Marx.  
+  Revised & Resubmited at *Review of Economics and Statistics*, July 2025. 
+
+- **Negotiating Coordination: A Study in Retail Gasoline**  
+  with David P. Byrne, Nicolas de Roos, Matthew S. Lewis, and Leslie M. Marx.
+
+- **The Effects of Mandatory Price Disclosure: A Natural Experiment in Retail Gasoline**  
+  with David Byrne, Nicolas de Roos, and Matthew Lewis.
+
+- **Behavioral Analysis of A+B Procurement Auctions: Competition, Complexity, and Overbidding**  
+  with Bernardo F. Quiroga and Brent B. Moritz.

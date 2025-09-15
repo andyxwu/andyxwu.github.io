@@ -1,0 +1,25 @@
+---
+title: ""
+
+---
+
+
+## University of Melbourne 
+
+- **Econometrics of Markets and Competition (ECOM40007/90017)**, 2024 - Present
+
+ECOM40007/90017 covers empirical industrial organization at the Honours undergraduate and Masters level. Topics include differentiated product demand estimation (Berry 1994; BLP), merger simulations, auctions, search, static entry models, and production function estimation. 
+
+- **Competition and Strategy (ECON20005)**, 2024 - Present  
+
+ECON20005 is a second-year elective that introduces students to game theory and its applications in everyday life, as well as the analysis of firms’ strategic behavior and competition.
+
+- **Computational Economics (ECON90055)**, 2023 - 2025  
+
+ECON90055 introduces modern computational methods to solve and estimate structural models, analyze spatial and other datasets, and apply these tools to economic research.
+
+
+
+## Earlier Teaching (selected)
+
+- **Principles of Macroeconomics**, 2018, Clemson University

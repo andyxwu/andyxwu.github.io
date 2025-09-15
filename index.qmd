@@ -1,0 +1,33 @@
+---
+title: ""
+---
+
+<div style="display: grid; grid-template-columns: 260px 1fr; gap: 80px; align-items: start;">
+
+  <!-- Left column: profile image -->
+  <div style="display:flex; justify-content:flex-start; align-items:flex-start;">
+  <img src="images/andywu.png" alt="Andy Wu"
+     style="width:240px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" />
+  </div>
+
+  <!-- Right column: info -->
+  <div class="info-column">
+
+# Xiaosong (Andy) Wu  
+
+**Senior Lecturer (Assistant Professor)**   
+Department of Economics, University of Melbourne
+
+**Research interests**  
+Industrial Organization; Applied Microeconomics; Competition and Antitrust Policy; Quantitative Marketing
+
+My research lies in empirical industrial organization and competition policy, with a focus on how information shapes consumer behavior, firm strategy, and market outcomes.
+
+**Contact**  
+Email: <andy.wu1@unimelb.edu.au>  
+Department of Economics | Faculty of Business & Economics  
+Room 320, Level 3, 111 Barry Street, Carlton  
+University of Melbourne, Victoria 3010, Australia
+
+  </div>
+</div>

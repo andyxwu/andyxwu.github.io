@@ -1,0 +1,29 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Andy Wu"
+  site-url: "https://example.com"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: CV
+        href: AWU_CV.pdf
+  page-footer:
+    left: "© 2025 Xiaosong (Andy) Wu"
+    right: ""
+
+format:
+  html:
+    theme: default
+    toc: true
+    self-contained: true
+    smooth-scroll: true
+    css: styles.css
