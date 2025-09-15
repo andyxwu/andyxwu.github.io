@@ -2,12 +2,12 @@
 title: ""
 ---
 
-<div style="display: grid; grid-template-columns: 260px 1fr; gap: 80px; align-items: start;">
+<div style="display: grid; grid-template-columns: 220px 1fr; gap: 60px; align-items: start;">
 
   <!-- Left column: profile image -->
   <div style="display:flex; justify-content:flex-start; align-items:flex-start;">
   <img src="images/andywu.png" alt="Andy Wu"
-     style="width:240px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" />
+     style="width:220px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" />
   </div>
 
   <!-- Right column: info -->
@@ -17,6 +17,7 @@ title: ""
 
 **Senior Lecturer (Assistant Professor)**   
 Department of Economics, University of Melbourne
+<br>
 
 **Research interests**  
 Industrial Organization; Applied Microeconomics; Competition and Antitrust Policy; Quantitative Marketing

@@ -36,5 +36,8 @@ a:hover {
   margin-top: 0;
 }
 
+.info-column h1 {
+  margin-bottom: 0.8em;  /* adjust this value */
+}
 
 main { max-width: 900px; margin: 0 auto; }
