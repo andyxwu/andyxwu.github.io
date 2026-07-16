@@ -3,21 +3,18 @@ project:
   type: website
   output-dir: docs
   resources:
-    - awu_CV.pdf  
+    - AWu_CV.pdf
+    - CNAME
 
 website:
   title: "Andy Wu"
-  site-url: https://andyxwu.github.io/
+  site-url: https://andyxwu.com/
   navbar:
     left:
-      - text: Home
-        href: index.qmd
       - text: Research
         href: research.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: CV
-        href: awu_CV.pdf
   page-footer:
     left: "© 2025 Xiaosong (Andy) Wu"
     right: ""

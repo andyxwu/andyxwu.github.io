@@ -2,11 +2,138 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
                "PingFang SC","Hiragino Sans GB","Microsoft YaHei", sans-serif;
+  background-color: #fbfaf6;  /* warm paper tone instead of stark white */
+  color: #1c1f24;
 }
+
+p, li {
+  line-height: 1.7;
+}
+
+/* Serif display face for the name/page title only — "Formal Faculty" direction.
+   Body and nav stay on the sans+CJK stack above. */
+h1 {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Songti SC", "PingFang SC", serif;
+  font-weight: 400;
+  font-size: 2.1rem;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+/* Section labels (Publications, Working Papers, etc.) as small-caps gold labels.
+   #ac5907 and the navbar hairline below are both official University of Melbourne
+   "Yam Daisy" gold-ramp values, not invented colors. */
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: #ac5907;
+  border-bottom: 1px solid #e6ddc4;
+  padding-bottom: 0.5rem;
+  margin-top: 2.6rem;
+  margin-bottom: 1.3rem;
+}
+
+/* Italicized venue citations read as muted, not full-strength body text */
+li em {
+  color: #55575e;
+  font-style: italic;
+}
+
+/* --- Publication list entries (research.qmd) --- */
+/* margin-bottom lives only here, never on a last child, so every entry's gap to the
+   next is identical regardless of whether it ends in links, venue, or just authors. */
+.pub-entry { margin-bottom: 1.8rem; }
+.pub-entry > *:last-child { margin-bottom: 0; }
+/* No font-weight set here — this is the base weight shared by both published titles
+   (a link) and working-paper titles (plain text). The only visual difference between
+   the two categories should be the presence of the hyperlink itself, nothing else. */
+.pub-title { font-size: 1rem; margin-bottom: 0.15rem; }
+.pub-title a {
+  color: #404B74;
+  text-decoration: underline;
+  font-weight: inherit;  /* Quarto/Bootstrap's link styles were forcing 400 here, undoing the bold */
+}
+.pub-authors { font-size: 0.94rem; color: #2a2d33; margin-bottom: 0.1rem; }
+
+/* --- Teaching entries (teaching.qmd) — same rhythm and type scale as Publications,
+   just teaching-scoped names since a course isn't a "pub-authors" or "pub-venue". --- */
+.teach-entry { margin-bottom: 1.8rem; }
+.teach-entry > *:last-child { margin-bottom: 0; }
+.teach-title { font-size: 1rem; margin-bottom: 0.15rem; }
+.teach-period { font-size: 0.94rem; font-style: italic; color: #55575e; margin-bottom: 0.35rem; }
+.teach-desc { font-size: 0.94rem; color: #2a2d33; }
+.pub-venue { font-size: 0.94rem; font-style: italic; color: #55575e; margin-bottom: 0.35rem; }
+/* Plain inline-block row (not flexbox) — matching lmusolff.com's own markup, which
+   gets clean alignment from consistent font-size/line-height on siblings rather than
+   flex centering. */
+.pub-links {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+/* Pandoc auto-wraps this row's content in an invisible <p> when it contains two
+   inline elements side by side (a PDF link + the toggle button) — it does NOT do
+   this for entries with only one lone button. Neutralize that wrapper so it never
+   affects spacing, and use descendant (not direct-child) selectors below so the
+   button/link styling still applies regardless of the extra <p>. */
+.pub-links p { display: inline; margin: 0; }
+
+/* One shared rule for both the <a> and <button> — avoids any drift between two
+   separate declarations (that drift was the actual cause of their font mismatch). */
+.pub-links a,
+.pub-links .abstract-toggle {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #404B74;
+  margin-right: 3rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.pub-links svg {
+  vertical-align: -2px;
+  margin-right: 4px;
+}
+.abstract-toggle .chevron { transition: transform 0.15s ease; vertical-align: -1px; }
+.abstract-toggle[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+
+/* Smooth open/close via max-height transition (same technique as lmusolff.com) —
+   the element is always present in the flow, so there's no display:none/block jump.
+   padding-top is constant (not transitioned): it's invisible while max-height:0 clips
+   the box anyway, and keeping it out of the transition means scrollHeight — read at
+   the moment the toggle fires — already includes it, with no race condition. */
+.abstract-text {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 0.8rem;
+  color: #3a3d44;
+  line-height: 1.65;
+  margin: 0;
+  padding-top: 0.35rem;
+  transition: max-height 0.4s ease-in-out;
+}
+
+/* "On this page" TOC: override Bootstrap's default bright blue (#0d6efd) active-item
+   highlight so the whole page uses one consistent link blue, not three competing blues. */
+#TOC .nav-link.active,
+#TOC .nav-link.active:hover {
+  color: #404B74 !important;
+  border-left-color: #404B74 !important;
+}
+
 /* --- Navbar styling --- */
 .navbar {
-  background-color: #000F46 !important;  /* University of Melbourne Blue */
+  background-color: #000F46 !important;  /* University of Melbourne Blue — confirmed exact brand match */
   border-bottom: none;                   /* remove thin grey border */
+  box-shadow: 0 3px 0 0 #e9b11e;          /* official "Yam Daisy" gold hairline, nods to the crest */
 }
 
 .navbar a,
@@ -31,13 +158,7 @@ a:hover {
   text-decoration: underline;  /* underline on hover */
 }
 
-/* Reduce top gap before the name on the home page */
-.info-column h1 {
-  margin-top: 0;
-}
-
-.info-column h1 {
-  margin-bottom: 0.8em;  /* adjust this value */
-}
-
-main { max-width: 900px; margin: 0 auto; }
+/* Page width: Quarto's default page-columns grid reserved a right column for the
+   "On this page" TOC; with that removed, this is the sole thing controlling content
+   width. 760px keeps body text to a comfortable reading line length. */
+main { max-width: 760px; margin: 0 auto; padding-top: 2.5rem; }
