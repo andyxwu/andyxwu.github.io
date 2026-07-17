@@ -25,9 +25,9 @@ format:
   html:
     include-in-header:
       - text: |
-          <meta name="description" content="Andy (Xiaosong) Wu, Economist, University of Melbourne. Data-driven research on industrial organization, competition, energy markets, and quantitative marketing.">
-          <meta property="og:description" content="Andy (Xiaosong) Wu, Economist, University of Melbourne. Data-driven research on industrial organization, competition, energy markets, and quantitative marketing.">
-          <meta name="twitter:description" content="Andy (Xiaosong) Wu, Economist, University of Melbourne. Data-driven research on industrial organization, competition, energy markets, and quantitative marketing.">
+          <meta name="description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
+          <meta property="og:description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
+          <meta name="twitter:description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
     theme: default
     toc: true
     self-contained: true
