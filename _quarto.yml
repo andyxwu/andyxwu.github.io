@@ -5,6 +5,7 @@ project:
   resources:
     - AWu_CV.pdf
     - CNAME
+    - robots.txt
 
 website:
   title: "Andy (Xiaosong) Wu"
