@@ -31,7 +31,6 @@ format:
           <meta name="twitter:description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
     theme: default
     toc: true
-    self-contained: true
     smooth-scroll: true
     css: styles.css
 

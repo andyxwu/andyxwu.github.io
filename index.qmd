@@ -1,6 +1,8 @@
 ---
 title: ""
 pagetitle: "Economist, University of Melbourne"
+include-in-header:
+  - text: <link rel="canonical" href="https://andyxwu.com/">
 ---
 
 <div style="display: grid; grid-template-columns: 220px 1fr; gap: 60px; align-items: start;">

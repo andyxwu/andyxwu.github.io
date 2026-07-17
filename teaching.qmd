@@ -1,6 +1,8 @@
 ---
 title: ""
 pagetitle: "Teaching | Competition Economics"
+include-in-header:
+  - text: <link rel="canonical" href="https://andyxwu.com/teaching.html">
 ---
 
 ## University of Melbourne
