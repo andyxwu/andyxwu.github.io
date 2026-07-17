@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Teaching | Competition Economics"
 ---
 
 ## University of Melbourne

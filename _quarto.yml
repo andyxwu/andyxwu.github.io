@@ -7,8 +7,10 @@ project:
     - CNAME
 
 website:
-  title: "Andy Wu"
+  title: "Andy (Xiaosong) Wu"
   site-url: https://andyxwu.com/
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - text: Research
@@ -21,8 +23,11 @@ website:
 
 format:
   html:
-    meta:
-      description: "Xiaosong Wu, Andy Wu, Senior Lecturer, Economics, University of Melbourne. Research in Industrial Organization, Competition Policy, Econometrics."
+    include-in-header:
+      - text: |
+          <meta name="description" content="Andy (Xiaosong) Wu, Economist, University of Melbourne. Data-driven research on industrial organization, competition, energy markets, and quantitative marketing.">
+          <meta property="og:description" content="Andy (Xiaosong) Wu, Economist, University of Melbourne. Data-driven research on industrial organization, competition, energy markets, and quantitative marketing.">
+          <meta name="twitter:description" content="Andy (Xiaosong) Wu, Economist, University of Melbourne. Data-driven research on industrial organization, competition, energy markets, and quantitative marketing.">
     theme: default
     toc: true
     self-contained: true
