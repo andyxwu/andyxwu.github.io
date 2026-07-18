@@ -11,6 +11,7 @@ website:
   title: "Andy (Xiaosong) Wu"
   description: "Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms."
   site-url: https://andyxwu.com/
+  google-analytics: "G-5CWG0S238Q"
   open-graph: true
   twitter-card: true
   navbar:
