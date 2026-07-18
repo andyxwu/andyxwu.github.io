@@ -129,6 +129,8 @@ include-in-header:
       </script>
 ---
 
+# Research
+
 ## Publications
 
 ```{=html}

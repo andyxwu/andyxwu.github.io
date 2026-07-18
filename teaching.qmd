@@ -67,6 +67,8 @@ include-in-header:
       </script>
 ---
 
+# Teaching
+
 ## University of Melbourne
 
 ```{=html}

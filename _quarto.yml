@@ -23,7 +23,7 @@ website:
         href: teaching.qmd
   page-footer:
     left: "© 2025 Xiaosong (Andy) Wu"
-    right: ""
+    right: "[LinkedIn](https://www.linkedin.com/in/xiaosong-andy-wu/)"
 
 format:
   html:
