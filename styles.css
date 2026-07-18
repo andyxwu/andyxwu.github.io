@@ -64,6 +64,11 @@ li em {
 .teach-entry { margin-bottom: 1.8rem; }
 .teach-entry > *:last-child { margin-bottom: 0; }
 .teach-title { font-size: 1rem; margin-bottom: 0.15rem; }
+.teach-title a {
+  color: #404B74;
+  text-decoration: underline;
+  font-weight: inherit;
+}
 .teach-period { font-size: 0.94rem; font-style: italic; color: #55575e; margin-bottom: 0.35rem; }
 .teach-desc { font-size: 0.94rem; color: #2a2d33; }
 .pub-venue { font-size: 0.94rem; font-style: italic; color: #55575e; margin-bottom: 0.35rem; }
