@@ -9,10 +9,12 @@ project:
 
 website:
   title: "Andy (Xiaosong) Wu"
+  description: "Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms."
   site-url: https://andyxwu.com/
   open-graph: true
   twitter-card: true
   navbar:
+    title: "Andy Wu"
     left:
       - text: Research
         href: research.qmd
@@ -24,11 +26,6 @@ website:
 
 format:
   html:
-    include-in-header:
-      - text: |
-          <meta name="description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
-          <meta property="og:description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
-          <meta name="twitter:description" content="Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms.">
     theme: default
     toc: true
     smooth-scroll: true

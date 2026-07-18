@@ -1,6 +1,7 @@
 ---
 title: ""
 pagetitle: "Economist, University of Melbourne"
+description: "Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms."
 include-in-header:
   - text: <link rel="canonical" href="https://andyxwu.com/">
 ---
