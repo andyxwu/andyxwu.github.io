@@ -112,6 +112,20 @@ include-in-header:
           },
           {
             "@type": "ScholarlyArticle",
+            "headline": "Dynamic Demand in Retail Gasoline Markets",
+            "author": [
+              {"@type": "Person", "name": "Xiaosong (Andy) Wu"},
+              {"@type": "Person", "name": "Jack Buckley"},
+              {"@type": "Person", "name": "David P. Byrne"},
+              {"@type": "Person", "name": "Nicolas de Roos"},
+              {"@type": "Person", "name": "Matthew Elias"},
+              {"@type": "Person", "name": "Matthew S. Lewis"},
+              {"@type": "Person", "name": "Aditya Maitra"}
+            ],
+            "creativeWorkStatus": "Working paper"
+          },
+          {
+            "@type": "ScholarlyArticle",
             "headline": "How Gasoline Price Elasticity Varies with Income",
             "author": [
               {"@type": "Person", "name": "Xiaosong (Andy) Wu"},
@@ -121,6 +135,18 @@ include-in-header:
               {"@type": "Person", "name": "Matthew Elias"},
               {"@type": "Person", "name": "Matthew S. Lewis"},
               {"@type": "Person", "name": "Aditya Maitra"}
+            ],
+            "creativeWorkStatus": "Working paper"
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "headline": "Competitive Effects of Digital Information Sharing: Insights from Retail Gasoline",
+            "author": [
+              {"@type": "Person", "name": "Xiaosong (Andy) Wu"},
+              {"@type": "Person", "name": "David Byrne"},
+              {"@type": "Person", "name": "Nicolas de Roos"},
+              {"@type": "Person", "name": "Matthew Lewis"},
+              {"@type": "Person", "name": "Leslie Marx"}
             ],
             "creativeWorkStatus": "Working paper"
           }
@@ -194,8 +220,18 @@ include-in-header:
 </div>
 
 <div class="pub-entry">
+<div class="pub-title">Dynamic Demand in Retail Gasoline Markets</div>
+<div class="pub-authors">with Jack Buckley, David P. Byrne, Nicolas de Roos, Matthew Elias, Matthew S. Lewis, and Aditya Maitra</div>
+</div>
+
+<div class="pub-entry">
 <div class="pub-title">How Gasoline Price Elasticity Varies with Income</div>
 <div class="pub-authors">with Jack Buckley, David P. Byrne, Nicolas de Roos, Matthew Elias, Matthew S. Lewis, and Aditya Maitra</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-title">Competitive Effects of Digital Information Sharing: Insights from Retail Gasoline</div>
+<div class="pub-authors">with David Byrne, Nicolas de Roos, Matthew Lewis, and Leslie Marx</div>
 </div>
 
 <script>

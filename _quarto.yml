@@ -6,11 +6,15 @@ project:
     - AWu_CV.pdf
     - CNAME
     - robots.txt
+    - favicon-16x16.png
+    - favicon-32x32.png
+    - apple-touch-icon.png
 
 website:
   title: "Andy (Xiaosong) Wu"
   description: "Andy (Xiaosong) Wu, Economist at the University of Melbourne. Data-driven research on information economics, competition, energy markets, and digital platforms."
   site-url: https://andyxwu.com/
+  favicon: favicon.ico
   google-analytics: "G-5CWG0S238Q"
   open-graph: true
   twitter-card: true
@@ -31,4 +35,10 @@ format:
     toc: true
     smooth-scroll: true
     css: styles.css
+    include-in-header:
+      text: |
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
 

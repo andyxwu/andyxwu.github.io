@@ -46,7 +46,7 @@ li em {
 /* --- Publication list entries (research.qmd) --- */
 /* margin-bottom lives only here, never on a last child, so every entry's gap to the
    next is identical regardless of whether it ends in links, venue, or just authors. */
-.pub-entry { margin-bottom: 1.8rem; }
+.pub-entry { margin-bottom: 1.2rem; }
 .pub-entry > *:last-child { margin-bottom: 0; }
 /* No font-weight set here — this is the base weight shared by both published titles
    (a link) and working-paper titles (plain text). The only visual difference between
@@ -76,7 +76,7 @@ li em {
    gets clean alignment from consistent font-size/line-height on siblings rather than
    flex centering. */
 .pub-links {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
   line-height: 1.4;
 }
 /* Pandoc auto-wraps this row's content in an invisible <p> when it contains two
@@ -122,7 +122,7 @@ li em {
   color: #3a3d44;
   line-height: 1.65;
   margin: 0;
-  padding-top: 0.35rem;
+  padding-top: 0.2rem;
   transition: max-height 0.4s ease-in-out;
 }
 
