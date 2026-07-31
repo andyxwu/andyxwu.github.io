@@ -3,7 +3,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - AWu_CV.pdf
+    - awu_cv.pdf
     - CNAME
     - robots.txt
     - favicon-16x16.png
